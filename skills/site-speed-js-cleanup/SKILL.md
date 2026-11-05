@@ -5,6 +5,8 @@ description: Page-speed quality pass plus JavaScript/asset cleanup for WordPress
 
 # Site speed + JS cleanup
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 **Why:** a 10-year-old site had a 31/100 mobile score, 14 MB of page weight and 2.8 s of blocking time. None of it came from the theme alone. It came from things nobody remembered adding: Figma clipboard data pasted into the builder (580 KB on one page), photos hidden inside SVG files, a testimonial video preloading 7.5 MB, a form embed pulling reCAPTCHA in 8 times, and form plugins loading on every page for one hidden form. Generic "optimize images, defer JS" advice misses all of these. Measure, inventory, then fix what is actually there.
 
 This skill is the inventory, cleanup and rollout workflow; pair it with any general web-performance guide for metric definitions and trace analysis. Keep per-site findings, IDs and history in a notes file for that site; read it first and update it at the end.

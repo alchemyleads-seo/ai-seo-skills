@@ -5,6 +5,8 @@ description: Rule and recipe for linking parent and child pages in structured da
 
 # Parent/child schema rule
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 Every parent page and its child pages must be linked both ways in schema, using the property that fits the type. Never leave a child page whose markup doesn't name its parent, or a parent that doesn't list its children. Apply it when publishing any new child page, and when auditing a site.
 
 ## Patterns (pick by family)

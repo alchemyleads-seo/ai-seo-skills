@@ -5,6 +5,8 @@ description: Audit and rewrite an existing page (live URL, draft or pasted copy)
 
 # AEO content optimizer
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 Source: Chris Long, Nectiv, "New Claude Skill: AI Search Content Optimizer" (2026-11-02), skill at github.com/Nectiv-Digital/nectiv-claude-skills (MIT, see `LICENSE-nectiv`). Scripts and `references/evidence.md` are Nectiv's, unchanged. This file keeps Nectiv's method and adds guardrails suggested in the LinkedIn discussion of the release (Tim Lane, Rebecca Bridges, Muhammad Rizwan, Manuel Madeddu) plus a few of our own.
 
 Evidence base (read `references/evidence.md` before diagnosing; cite factor IDs like `[POS-DOC]`):

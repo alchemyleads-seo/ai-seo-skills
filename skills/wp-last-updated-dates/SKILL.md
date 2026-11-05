@@ -5,6 +5,8 @@ description: Add and maintain a visible "Last updated" date on WordPress posts a
 
 # WordPress "Last updated" dates for AI SEO
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 AI engines and searchers both lean on freshness. Kevin Indig shared a case (Growth Memo, Oct 2026) where adding a visible "last updated" date lined up with roughly 3x AI citations. Treat that as a practitioner observation, not a promise. The date is cheap, honest, and it matches what schema already says.
 
 ## Rules

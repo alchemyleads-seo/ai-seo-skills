@@ -5,6 +5,8 @@ description: QA a website's Privacy Policy, Terms of Use, Disclaimer, cookie not
 
 # Privacy Policy QA
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 You are checking accuracy and completeness against observed evidence. You are not giving legal advice. Mark legal-applicability questions "for counsel" and verify current law from authoritative sources (state AG/agency pages, statute text) before stating any requirement. Never invent business commitments (retention periods, response deadlines, entity names, incentives); ask the owner and leave a marked placeholder.
 
 ## 1. Evidence: what the site actually loads

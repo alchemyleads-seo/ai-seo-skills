@@ -5,6 +5,8 @@ description: Pre-publish compliance gate for marketing pages, case studies, test
 
 # Marketing Compliance Gate
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 Run it on every page before asking for publish approval. Output a short PASS/FLAG table with evidence. You flag; the owner or counsel decides. Verify rules against current official sources (FTC endorsement guides and consumer-review rule, relevant state law) before citing them. Don't quote rule numbers from memory.
 
 ## Checks

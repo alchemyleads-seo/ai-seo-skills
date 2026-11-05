@@ -5,6 +5,8 @@ description: Find and change a phrase, claim, number, or name on EVERY page of a
 
 # WP Site-wide Text Sweep
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 ## 1. Inventory (before touching anything)
 Crawl every sitemap URL logged-out in the browser (`scripts/sweep.js`, 6 workers, results in `window.__res`) and search the raw HTML, not just the visible text: names hide in alt attributes, JSON-LD, video titles, and `@id` fragments. Group the hits by exact phrase and context. List pattern families (first + last name, "Owner, <Brand>", "client, <Brand>, we", alt text) and exclude staff and other false positives.
 

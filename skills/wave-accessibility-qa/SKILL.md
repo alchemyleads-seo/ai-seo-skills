@@ -1,18 +1,20 @@
 ---
 name: wave-accessibility-qa
-description: Run WebAIM WAVE accessibility checks across a site's route inventory (WAVE API batch or WAVE browser-extension snapshots), triage errors, contrast errors and alerts by shared template, apply the proven WordPress/Cornerstone fix patterns, and re-scan to prove the counts dropped. Use for "WAVE compliance", "run WAVE", "fix accessibility errors", ADA/WCAG cleanup passes, or as the pre-publish accessibility gate on new pages. Complements shared-template-accessibility (remediation method) and site-privacy-accessibility (portfolio rollout).
+description: Run WebAIM WAVE accessibility checks across a site's route inventory (WAVE API batch or WAVE browser-extension snapshots), triage errors, contrast errors and alerts by shared template, apply the proven WordPress/Cornerstone fix patterns, and re-scan to prove the counts dropped. Use for "WAVE compliance", "run WAVE", "fix accessibility errors", ADA/WCAG cleanup passes, or as the pre-publish accessibility gate on new pages.
 ---
 
 # WAVE Accessibility QA
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 WAVE counts are evidence, not a conformance verdict. Never say a site is "ADA compliant" or "WCAG conformant" because WAVE shows 0 errors. Manual keyboard, screen-reader, and zoom checks remain in the backlog.
 
 ## 1. Route inventory (one URL per template and state)
-From the sitemap, pick one URL per template: home, page-builder pages, each custom kit (`.alv`, `.alp`), blog post, case study, industry CPT, service CPT, legal pages, forms (/call/), 404, author, search. Add states that need interaction (open nav and mega menu, mobile drawer, cookie banner open, FAQ `<details>` open). Templates repeat, so scan representatives and fix once.
+From the sitemap, pick one URL per template: home, page-builder pages, each custom section kit or reusable block, blog post, case study, industry CPT, service CPT, legal pages, forms (/call/), 404, author, search. Add states that need interaction (open nav and mega menu, mobile drawer, cookie banner open, FAQ `<details>` open). Templates repeat, so scan representatives and fix once.
 
 ## 2. Scan
 - **API (preferred for batches):** `scripts/wave_api_scan.py urls.txt --out wave.csv`, with the key in `WAVE_API_KEY` (WebAIM API credits, owned by the client or agency; never hard-code it). It records errors, contrast, alerts, features, structure, ARIA, plus per-item IDs and counts. The script fails loudly on API errors and never writes zeros for a failed scan.
-- **Extension/manual:** WAVE browser extension on each URL and state; save the DOM/summary snapshot and use `shared-template-accessibility/scripts/summarize-wave.py` for the saved format.
+- **Extension/manual:** WAVE browser extension on each URL and state; save the DOM/summary snapshot per URL and tally the counts in a sheet the same way as the API output.
 - Logged-out only (the admin bar adds false findings). Clear caches first. A Cloudflare challenge, redirect, or raw image URL is not a scanned page: exclude it and note why.
 
 ## 3. Triage (per template, not per page)

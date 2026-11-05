@@ -5,6 +5,8 @@ description: "How to ask a client for information and turn their answers into a 
 
 # Client question rounds
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 The rule: **do the work yourself before asking clients.** Clients (especially busy owners and execs at established companies) get tired of homework and of piecemeal rounds. Every question you send costs goodwill, so each one has to be something only they can answer.
 
 ## 1. Research pass before writing any question

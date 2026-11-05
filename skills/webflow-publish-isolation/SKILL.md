@@ -5,6 +5,8 @@ description: Rules for publishing on Webflow without leaking unrelated changes t
 
 # Webflow publish isolation
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 Webflow publishes are **site-wide**. One publish (Designer button, API `site publish`, or CMS "Publish now") can release *everything* that is pending: Designer edits, styles, page settings, and any queued CMS items. Isolation is your job, not Webflow's.
 
 ## Mental model (verified on a client site, 2026-10-05)

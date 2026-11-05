@@ -5,6 +5,8 @@ description: "Plan, word and build an 'American manufacturing' / 'Made in USA' /
 
 # American manufacturing / Made in USA page
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 Pair this with `client-question-rounds` (how to ask) and `marketing-compliance-gate` (pre-publish check). **Check thresholds against current official sources (FTC, OMB/FAR) before quoting them to a client.** The figures below were correct in Oct 2026.
 
 ## Claim ladder (strictest first)

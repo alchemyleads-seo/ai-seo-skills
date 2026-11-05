@@ -5,6 +5,8 @@ description: How to treat claims, stats and numbers you can't verify in a brand'
 
 # Claims: unverified is not the same as false
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 **Why:** an assistant auditing copy will treat every number it can't find in its own sources as "invented" or "unsupported", then remove or flag true claims: conversion stats, client results, industry figures. The business owner has years of client context, call notes, dashboards and conversations the assistant never sees. Any written record of approved claims is a **partial** record of what's been written down, not a complete list of what's true.
 
 ## Rules

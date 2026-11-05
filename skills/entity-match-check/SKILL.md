@@ -5,6 +5,8 @@ description: Prove a third-party profile or record belongs to the right company 
 
 # Entity match check
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 **Why:** in a real case, an agency's homepage Organization `sameAs` linked a Clutch profile with almost the same name. It belonged to a **different agency in another state**. The mistake spread:
 - Google AI Mode cited the wrong profile when asked whether the brand was a legitimate company.
 - A "dropped" review count was reported twice, because the count came from the other company.

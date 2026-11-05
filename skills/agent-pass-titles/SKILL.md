@@ -5,6 +5,8 @@ description: Rules and a test method for writing titles, meta descriptions, exce
 
 # Agent pass: titles and descriptions that agents cite
 
+*From [AlchemyLeads](https://alchemyleads.com) · [ai-seo-skills](https://github.com/alchemyleads-seo/ai-seo-skills) · MIT license*
+
 Source: Mike Taylor (head of evals, Every), Oct 2026 newsletter. He ran Claude agents on real user questions with his 38 posts as candidates and counted how often each was cited. One author, one site and an agent-picks-from-a-list setup, so treat the numbers as directional. The pattern was consistent across every question he tested.
 
 Agents choose from the **title + description** (meta description, excerpt, subtitle). The body only matters after it's picked.
